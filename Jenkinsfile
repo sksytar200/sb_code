@@ -32,12 +32,13 @@ pipeline {
                 }
             }
         }
+        
         stage('code build'){
             steps {
                 sh "mvn clean package"
             }
         
-        
+        }
         stage('Test') {
             steps {
                 echo 'Testing..'
