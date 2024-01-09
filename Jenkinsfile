@@ -11,6 +11,9 @@ pipeline {
         GITWEBADD = 'https://github.com/skystar200/sb_code.git'
         GITSSHADD = 'git@github.com:skystar200/sb_code.git'
         GITCREDENTIAL = 'git_cre' 
+        
+        DOCKERHUB = 'skystar200/spring'
+        DOCKERHUBCREDENTIAL = 'docker_cre'
     }
         
     
