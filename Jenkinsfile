@@ -12,7 +12,7 @@ pipeline {
         GITSSHADD = 'git@github.com:skystar200/sb_code.git'
         GITCREDENTIAL = 'git_cre' 
         
-        DOCKERHUB = 'skystar200/spring'
+        DOCKERHUB = 'rlaquf/spring'
         DOCKERHUBCREDENTIAL = 'docker_cre'
     }
         
