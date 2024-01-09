@@ -39,6 +39,14 @@ pipeline {
             }
         
         }
+        stage('image build'){
+            steps {
+                sh "docker build -t skystar200/spring:1.0 ."
+                
+            }
+        }
+        
+        
         stage('Test') {
             steps {
                 echo 'Testing..'
